@@ -9,5 +9,5 @@ extern char f[];char*g=f;printf("\033[35m");for
 (y=5;y>0;--y){for(i=0;i<8;++i,++g){for(x=5;x>0;
 --x,++g)if((n[a[i]]>>((x-1)+5*(y-1)))&1)printf(
 "\033[46m%c\033[40m",*g);else printf("%c",*g)//
-;printf("%c",*g);}}printf("\033[34m%s",g);/////
-printf("\033[0m\033[13A");sleep(1);}}//////////
+;if(13^*g)printf("%c",*g);}}printf("\033[34m%s"
+,g);printf("\033[0m\033[13A");sleep(1);}}//////
