@@ -4,4 +4,4 @@ A Quine clock in C inspired by Tsoding's Quine clock in C adventure (https://www
 Simply clone the repository and (if you have gcc installed and added to path) run 'make'.
 In the case of another compiler: set it in the Makefile at the top and try again (you might need to change some compiler-specific flags).
 
-![image](https://github.com/Psteven5/CQClock/assets/122227977/5cf2b2e0-79c2-4608-a465-0ee43bdbd482)
+![image](https://github.com/Psteven5/CQClock/assets/122227977/215061a9-bd71-4894-b270-851d2a995f6e)
