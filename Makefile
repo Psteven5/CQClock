@@ -1,6 +1,6 @@
 COMPILER = gcc
-IN			 = cqclock.c
-OUT			 = cqclock
+IN       = cqclock.c
+OUT      = cqclock
 
 REQUIRED_FLAGS = -include time.h -Wno-error=implicit-int -Wno-error=implicit-function-declaration -Wno-error=incompatible-pointer-types
 OPTIONAL_FLAGS = -s -w -O2
