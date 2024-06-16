@@ -10,4 +10,4 @@ extern char f[];char*g=f;puts("\033[35m");for(y
 x,++g)if((n[a[i]]>>((x-1)+5*(y-1)))&1)printf("\
 \033[46m%c\033[40m",*g);else printf("%c",*g);if
 (13==*g)++g;printf("%c",*g);}}printf("\033[34m\
-%s", g); puts("\033[0m\033[15A"); sleep(1); } }
+%s",g); printf("\033[0m\033[14A"); sleep(1); }}
